@@ -1,13 +1,15 @@
 {
   "name": "bs-react-jss",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    "ReactJSS",
+    "react-jss"
   ],
   "author": "",
   "license": "MIT",
