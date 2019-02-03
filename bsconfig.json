@@ -1,0 +1,19 @@
+{
+  "name": "bs-react-jss",
+  "version": "1.0.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-react"],
+  "warnings": {
+    "error" : "+101"
+  },
+  "namespace": false, // Single-projects shouldn't be namespaced.
+  "refmt": 3
+}
